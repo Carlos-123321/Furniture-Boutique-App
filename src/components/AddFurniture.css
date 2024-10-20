@@ -1,0 +1,17 @@
+.mb-3 {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+    
+  .wood2-background {
+    background-image: url('Wood5.jpg');
+
+  }
+  
+  .modal-content {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #333;
+  }

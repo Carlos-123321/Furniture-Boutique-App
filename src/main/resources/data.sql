@@ -1,0 +1,14 @@
+insert into designers(designer_id,name,dob,country,KimageURL) values ('1001','Maximilian Beauregard','1973-02-04','Luxembourg','https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Fendi_store_opening_-_Karl_Lagerfeld_%2814091153382%29.jpg/800px-Fendi_store_opening_-_Karl_Lagerfeld_%2814091153382%29.jpg');
+insert into designers(designer_id,name,dob,country, KimageURL) values ('1010','Aurelia Van Der Woodsen','1970-05-15','Netherlands', 'https://news.artnet.com/app/news-upload/2021/04/Hella-Jongerius-Portrait-2020-courtesy-Maharam-photo-Nick-Ballo%CC%81n-1024x768.jpeg');
+insert into designers(designer_id,name,dob,country, KimageURL) values ('1020','Reginald Fontaine','1965-09-28','France', 'https://ichef.bbci.co.uk/news/976/cpsprodpb/856B/production/_102755143_ecc09386-1dc9-49ef-95d4-b823cde4bd3a.jpg.webp');
+insert into designers(designer_id,name,dob,country, KimageURL) values ('1030','Seraphina Montague','1967-03-12','Monaco', 'https://inspirfashion.files.wordpress.com/2016/05/anna-wintour.jpg?w=1200');
+
+
+insert into furniture(furniture_id, name, price, material, image_url, designer_id) values ('F101', 'Elegant Sofa', 1200.00, 'Leather', 'https://i.pinimg.com/originals/e1/40/89/e140895d5843fb4b8e73388779bc190b.jpg', '1020');
+insert into furniture(furniture_id, name, price, material, image_url, designer_id) values ('F102', 'Luxury Dining Table', 2500.00, 'Mahogany', 'https://i.pinimg.com/originals/c6/70/6e/c6706eaac840121bb3f1abe02cd4e401.jpg', '1001');
+insert into furniture(furniture_id, name, price, material, image_url, designer_id) values ('F103', 'Green Armchair', 800.00, 'Velvet', 'https://i.pinimg.com/736x/0a/d3/97/0ad3970ed8989fca0b2dccb54a6432df.jpg', '1030');
+insert into furniture(furniture_id, name, price, material, image_url, designer_id) values ('F104', 'Marble Coffee Table', 1800.00, 'Marble', 'https://i.pinimg.com/736x/3a/c1/ba/3ac1ba495baf3b261aa3ffa6c4ff5923.jpg', '1010');
+insert into furniture(furniture_id, name, price, material, image_url, designer_id) values ('F105', 'Marble Table', 1000.00, 'Marble', 'https://cdn.roveconcepts.com/sites/default/files/styles/picture_1024_1x/public/Athena_Dining_Table_Round_48in_Travertine_Alabaster_Matte_Lacquered_Base_1_0.jpg', '1010');
+insert into furniture(furniture_id, name, price, material, image_url, designer_id) values ('F106', 'Wooden Bookshelf', 600.00, 'Wood', 'https://i.pinimg.com/originals/4e/82/c2/4e82c20e0586e4e7a4b32777387716c3.png', '1020');
+insert into furniture(furniture_id, name, price, material, image_url, designer_id) values ('F107', 'Rustic Dining Chair', 120.00, 'Wood', 'https://assets.wfcdn.com/im/38302113/resize-h445%5Ecompr-r85/2469/246935880/Coffey+Cream+Fabric+And+Walnut+Arm+Dining+Chair.jpg', '1001');
+insert into furniture(furniture_id, name, price, material, image_url, designer_id) values ('F108', 'Metal Desk', 350.00, 'Metal', 'https://i.pinimg.com/736x/89/6a/e2/896ae2a3c45c5f5f37406de5411b21e1.jpg', '1030');

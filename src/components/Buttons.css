@@ -1,0 +1,71 @@
+.editButton {
+
+  color: black;
+  background-color: #FAEBD7;
+ 
+}
+
+.editButton:hover {
+  background-color: #FAEBD7;
+  color: white;
+}
+
+.deleteButton {
+
+  color: white;
+  background-color: black;
+  float:inline-end;
+ 
+}
+
+.deleteButton:hover {
+  background-color: black;
+  color: #FAEBD7;
+}
+
+.closeButton {
+
+  background-color: black;
+  color: #FAEBD7;
+}
+
+.closeButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.updateButton {
+
+  color: black;
+  background-color: #FAEBD7;
+  
+}
+
+.updateButton:hover {
+  background-color: #FAEBD7;
+  color: white;
+}
+
+.addFurnitureButton {
+
+  color: black;
+  background-color: #8B4513;
+ 
+}
+
+.addFurnitureButton:hover {
+  background-color: #8B4513;
+  color: white;
+}
+
+.saveButton {
+
+  color: black;
+  background-color: #FAEBD7;
+  
+}
+
+.saveButton:hover {
+  background-color: #FAEBD7;
+  color: white;
+}

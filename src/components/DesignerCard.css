@@ -1,0 +1,8 @@
+.card-container:hover {
+    transform: scale(1.1); /* Increase the scale factor as needed */
+    transition: transform 5s ease-in; /* Add a smooth transition effect */
+    filter: blur(0.9px); /* Adjust the blur intensity as needed */
+    transition: filter 2s ease-in; /* Smooth transition on hover */
+  }
+  
+  

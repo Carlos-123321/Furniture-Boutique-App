@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from "./pages/HomePage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import FurniturePage from "./pages/FurniturePage";
+import DesignersPage from "./pages/DesignersPage";
+import MyNavBar from "./components/MyNavBar";
+import FurnitureDesignerList from "./components/FurnitureDesignerList";
+import DesignerFurnitureList from "./components/DesignerFurnitureList";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <MyNavBar/>
+        <Routes>
+            <Route exact path="/" element={<HomePage/>}/>
+            <Route path="/furniture" element={<FurniturePage/>}/>
+            <Route path="/designers" element={<DesignersPage/>}/>
+            <Route path="/furnituredesigner" element={<FurnitureDesignerList/>}/>
+            <Route path="/designerfurniture" element={<DesignerFurnitureList/>}/>
+        </Routes>
+      </Router>
   );
 }
 
